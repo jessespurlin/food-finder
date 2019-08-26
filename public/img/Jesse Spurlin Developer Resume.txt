@@ -1,0 +1,30 @@
+
+
+Jesse Spurlin
+Full-Stack Software Developer
+(903) 821-6884  —  jessespurlin@gmail.com
+github.com/jessespurlin — linkedin.com/jessespurlin
+
+Current Tech Stack:
+Frontend ————— HTML, CSS, Javascript ES6, JQuery, Bootstrap, ReactJS
+Backend —————— NodeJS, ExpressJS, MongoDB, SQL
+Testing —————— Mocha, Chai, Jasmine
+Environment —— VS Code, Sublime, Mac, Windows, Linux
+
+
+Education:
+	Currently Attending
+	2019 — Austin Community College Software Development Bootcamp
+	2016 — Portland Community College, Computer Science
+
+
+Tech-Unrelated Job History:
+
+September 2018- Present
+Private Contract Ride-share Driver, Lyft
+	Safe driving and service with a smile
+
+October 2017- September 2018
+Specialty Cook, Apple
+	Supervisor: Mark Morales, Kitchen Manager (512) 422-6110
+

@@ -1,0 +1,41 @@
+<% include partials/header.ejs %>
+
+<div class="jumbotron jumbotron-fluid">
+
+  <div class="container">
+  <h1>Here are some places nearby:</h1>
+    <table class="table table-hover">
+       <tr>
+            <th>Name</th>
+            <th>Rating</th>
+        </tr>
+      <% let stars; %>
+      <% data.forEach( (element) => { %>
+      <%     if(element.rating % 1 == 0){ %>
+      <%         stars = `/img/yelp_stars/stars_regular_${element.rating}.png` %>
+      <%     } else { %>
+      <%         stars = `/img/yelp_stars/stars_regular_${Math.floor(element.rating)}_half.png`; %>
+      <%     } %>
+              <tr class="table-info">
+                <td>
+                  <a href="<%= element.url%>"><img style="width:150px" src="<%- element.image_url%>" alt=""></a>
+                </td>
+                <td>
+                  <p><a href="<%= element.url%>" target="_blank" class="font-weight-bolder"><%-element.name%></a> <%- element.price %></p>
+                  <p><%= element.location.display_address%></p>
+                  <p><%= element.display_phone%></p>
+                </td>
+                <td>
+                  <img src="<%= stars %>" alt="stars">
+                </td>
+              </tr>
+              
+      <% }); %>
+    </table>
+
+  </div>
+
+
+</div>
+
+<% include partials/footer.ejs %>

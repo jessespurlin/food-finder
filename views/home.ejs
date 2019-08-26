@@ -1,0 +1,23 @@
+<% include partials/header.ejs %>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Find a food place near you!</h1>
+
+    <form action='/searchLocation' method=GET>
+      <div class="form-group">
+        <label for="location">Enter your location:</label>
+        <input type="search" class="form-control" name="location" id="location" aria-describedby="locationHelp" placeholder="Enter your location">
+      </div>
+      <input type="submit" class="btn btn-primary">
+    </form>
+
+  </div>
+</div>
+
+<% include partials/footer.ejs %>
+
+<!-- 
+<form action="/results" method="GET">
+   <input type="submit" value="Get the conditions in San Francisco"/>
+</form> -->
